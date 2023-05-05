@@ -10953,7 +10953,17 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   
-  
+}
+
+@media screen and (max-width: 470px){
+  header.masthead {
+    
+    background-image: url("../imagens/logo.png");
+    background-size: contain;
+    padding-top: 8rem;
+    padding-bottom: 0;
+  }
+
 }
 
 header.masthead .masthead-subheading {
