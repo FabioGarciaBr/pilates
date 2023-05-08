@@ -10937,7 +10937,7 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: #fff;
+  color: lightblue;
   background-image: url("../imagens/footer.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10958,7 +10958,6 @@ header.masthead {
 
 header.masthead .masthead-subheading {
   margin-top: 160px;
-  color: lightblue;
   font-size: 1.5rem;
   font-style: italic;
   line-height: 1.5rem;
