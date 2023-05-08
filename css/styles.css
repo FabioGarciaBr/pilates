@@ -10947,7 +10947,7 @@ header.masthead {
 
 @media screen and (max-width: 470px){
   header.masthead {
-    
+    width: 100%;
     background-image: url("../imagens/kb.png");
     background-size: contain;
     padding-top: 8rem;
@@ -10957,7 +10957,7 @@ header.masthead {
 }
 
 header.masthead .masthead-subheading {
-  margin-top: 100px;
+  margin-top: 110px;
   font-size: 1.5rem;
   font-style: italic;
   line-height: 1.5rem;
