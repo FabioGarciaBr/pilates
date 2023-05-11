@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="Fabio Garcia" content="" />
+        <title>Studio de Pilates</title>
+        <!--meta social-->
+        <meta property="og:url"           content="https://fabiogarciabr.github.io/pilates.html" />
+        <meta property="og:type"          content="website" />
+        <meta property="og:title"         content="Studio Eliane Barbieri" />
+        <meta property="og:description"   content="landing page Eliane Barbieri" />
+        <meta property="og:image"         content= https://fabiogarciabr.github.io/Fgcelulares/imagens/footer.png />
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="imagens/icone1.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
+
+        
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+     <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><img src="imagens/cabeçalho.png" alt="cabeçalho-img" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#services">Serviços</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Promoções</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team">Equipe</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header style="max-height: 400px;" class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Seja Bem Vindo!</div>
+               
+            </div>
+        </header>
+
+<body>
+
+	<h1 style="text-align: center;">Cadastro de Clientes</h1>
+	<form action="cadastro.php" method="post" id="cadastro">
+		<label for="nome">Nome:</label>
+		<input type="text" id="nome" name="nome"><br><br>
+
+		<label for="modalidade">Modalidade:</label>
+		<select id="modalidade" name="modalidade">
+			<option value="musculacao">Estética</option>
+			<option value="natacao">Hidroginática</option>
+			<option value="pilates">Pilates</option>
+			<option value="pilates">Acupuntura</option>
+		</select><br><br>
+
+		<label for="vencimento">Vencimento:</label>
+		<input type="date" id="vencimento" name="vencimento"><br><br>
+
+		<input type="submit" value="Cadastrar">
+	</form>
+
+    <style>
+        #cadastro{
+            background: #ccc;
+            text-align: center;
+        }
+    </style>
+    <div>
+        <h1>Meus clientes</h1>
+        <?php include 'consulta.php'; ?>
+    </div>
+
+ 
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Rua José Antonio Martini, 77, Jardim Itália,<br> Araras, SP</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/studio_elianebarbieri/?fbclid=IwAR3uT0iqAiippnf4Yp6Nb2LVNNI4VMxfxc9Pr_dPinw4Oqy6gjPZ0OE3Rog" aria-label="Twitter"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/Studioelianebarbieri" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="tel:1935449373">Telefone: (19) 3544-9373</a>
+                       
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
+                    
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <!--modal/carousel-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    </body>
+</html>
