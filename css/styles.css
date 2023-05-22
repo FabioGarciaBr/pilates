@@ -10949,9 +10949,7 @@ header.masthead {
     width: 100%;
     background-image: url("../imagens/kb.png");
     background-size: contain;
-    padding-top: 8rem;
-    padding-bottom: 0;
-    background-size: cover;
+   
   }
 
 }
